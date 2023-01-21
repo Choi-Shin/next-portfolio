@@ -1,0 +1,40 @@
+.Header {
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.userNav {
+  width: 100vw;
+  height: 5vh;
+  background-color: white;
+  color: black;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+  margin-bottom: 3rem;
+}
+
+.userNav ul {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.userNav li {
+  display: inline-block;
+  list-style: none;
+  width: 20%;
+}
+.userNav ul,
+.userNav li {
+  margin: 0;
+  padding: 0;
+}
+
+.userNav a {
+  text-decoration: none;
+  margin: 0.1rem;
+  color: rgb(82, 76, 76);
+  font-weight: normal;
+}

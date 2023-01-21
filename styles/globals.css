@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  /* overflow-x: hidden; */
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+html {
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: NotoSerifKR-Regular;
+}
+
+@font-face {
+  font-family: "NotoSerifKR-Regular";
+  src: url("/assets/NotoSerifKR-Regular.otf");
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
